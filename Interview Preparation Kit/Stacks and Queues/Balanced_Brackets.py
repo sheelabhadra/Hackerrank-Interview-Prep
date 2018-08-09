@@ -16,5 +16,8 @@ def isBalanced(s):
                     return 'NO'
             else:
                 return 'NO'
-        print stack
- 
+    
+    if stack != []:
+        return 'NO'
+    else:
+        return 'YES'
